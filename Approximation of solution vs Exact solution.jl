@@ -15,6 +15,7 @@ function plan(A,G,C0,B,D0,r,n,iterations)
     return X, X_approx
 end
 
+#The computation time and memory allocated are recorded based on the algorithm above.
 
 Exact_Sol = zeros(10,50)
 Approximate_n50 = zeros(10,50)
